@@ -1,0 +1,24 @@
+{
+  "name": "@vantelyn/custom-hooks",
+  "version": "0.1.0",
+  "description": "Custom hooks personalizados y reutilizables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vantelyn/react-custom-hooks.git"
+  },
+  "keywords": [
+    "useCounter",
+    "useFetch",
+    "useForm"
+  ],
+  "author": "Ernest Valentin Faulhaber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vantelyn/react-custom-hooks/issues"
+  },
+  "homepage": "https://github.com/vantelyn/react-custom-hooks#readme"
+}

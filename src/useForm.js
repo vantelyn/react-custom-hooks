@@ -1,7 +1,6 @@
-import { useState } from "react"
+const { useState } = require("react");
 
-
-export const useForm = ( initialState = {} ) => {
+const useForm = ( initialState = {} ) => {
     
     const [values, setValues] = useState(initialState);
 
@@ -22,3 +21,7 @@ export const useForm = ( initialState = {} ) => {
     return [ values, handleInputChange, reset ];
 
 }
+
+module.exports= {
+    useForm
+};

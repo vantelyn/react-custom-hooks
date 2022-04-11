@@ -1,7 +1,6 @@
-import { useState } from 'react';
+const { useState } = require('react');
 
-
-export const useCounter = ( initialState = 10 ) => {
+const useCounter = ( initialState = 10 ) => {
     
     const [counter, setCounter] = useState(initialState); // 10
 
@@ -25,3 +24,5 @@ export const useCounter = ( initialState = 10 ) => {
     };
 
 }
+
+module.exports = { useCounter };

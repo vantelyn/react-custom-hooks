@@ -1,7 +1,6 @@
-import { useState, useEffect, useRef } from 'react';
+const { useState, useEffect, useRef } = require('react');
 
-
-export const useFetch = ( url ) => {
+const useFetch = ( url ) => {
     
     const isMounted = useRef(true);
     const [state, setState] = useState({ data: null, loading: true, error: null });
@@ -41,4 +40,8 @@ export const useFetch = ( url ) => {
     },[url])
 
     return state;
+}
+
+module.exports = {
+    useFetch
 }
